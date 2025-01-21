@@ -33,4 +33,8 @@ Além disso, o código utiliza módulos internos do Python, como ````os```` e ``
 # Se o vídeo for mais de 30min considere dividir-lo em partes para que consiga melhor funcionamento e
 De uma olhada na base do modelo whisper ````modelo_da_transcricao = whisper.load_model("small")````
 ![image](https://github.com/user-attachments/assets/d4bd9e8c-ca5a-4591-994a-4f857ed004dd)
+
 (https://github.com/openai/whisper)
+
+# Lembre-se a API da OpenIA é paga, então faça uma recarga no mínimo de $5 para conseguir fazer os resumos (https://platform.openai.com/settings/organization/billing/overview)
+![image](https://github.com/user-attachments/assets/f30aeff2-3b15-46a2-94c1-037ba5743031)
