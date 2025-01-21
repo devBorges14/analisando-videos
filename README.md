@@ -36,5 +36,20 @@ De uma olhada na base do modelo whisper ````modelo_da_transcricao = whisper.load
 
 (https://github.com/openai/whisper)
 
-# Lembre-se a API da OpenIA é paga, então faça uma recarga no mínimo de $5 para conseguir fazer os resumos (https://platform.openai.com/settings/organization/billing/overview)
+# Lembre-se a API da OpenIA é paga, então faça uma recarga no mínimo de $5 para conseguir fazer os resumos 
+(https://platform.openai.com/settings/organization/billing/overview)
 ![image](https://github.com/user-attachments/assets/f30aeff2-3b15-46a2-94c1-037ba5743031)
+
+# Como rodar:
+- Após todas as configurações necessárias
+1) Clone o repositório:
+git clone https://github.com/devBorges14/analisando-videos.git
+2) Instale as dependências:
+````pip install -r requirements.txt````
+3) Configurar a ````API OpenIA````
+O código está configurado para usar o ````API OpenIA````, que é uma ferramenta da OpenIA para o resumo. Certifique-se de que no arquivo ````.env```` esteja com a Key da sua API OpenIA e que esteja com créditos suficientes para o resumo.
+Copie e guarde a Key da API e insira créditos: https://platform.openai.com/settings/organization/billing/overview
+Coloque o a chave da API no diretório especificado ou ajuste o caminho no código, caso necessário.
+4) Execute o programa:
+- Abra o terminal na pasta onde o arquivo SimpleGUI.py está localizado
+````python main.py````
