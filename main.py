@@ -1,14 +1,6 @@
 """
 Este programa recolhe uma URL do youtube, transcreve o audio, e assim resumindo o vídeo 
 usando a IA da OpenIA. Tendo um auto desempenho e agilidade.
-PASSOS:
-1-Recolher a URL F
-   - mostrar o titulo F
-2-Baixar o audio F
-3-Transcrever o audio F
-4-Apagar o audio deixado F
-5-Usar IA para resumir 
-6-Retornar resumo  
 """
 import openai
 import whisper
